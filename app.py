@@ -6,7 +6,7 @@ st.title("📘 Student Score Prediction App")
 st.write("Enter study hours to predict expected exam score.")
 
 # Load model
-model = load("model.pkl")
+model = joblib.load("df(1).pkl")
 
 # User input
 hours = st.number_input("Enter Hours Studied:", min_value=0.0, max_value=24.0, step=0.5)
