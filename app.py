@@ -8,7 +8,7 @@ st.title("📘 Student Score Prediction App")
 st.write("Enter study hours to predict expected exam score.")
 
 # Name of the model file you uploaded to the repo
-MODEL_FILENAME = "model.pkl"   # <-- make sure this file is present in the same folder as app.py
+MODEL_FILENAME = "df(1).pkl"   # <-- make sure this file is present in the same folder as app.py
 
 @st.cache_resource
 def load_model(path):
